@@ -15,7 +15,7 @@ public class Treeset {
         ts.add("pineapple");
         ts.remove("apple");
         l.log(Level.INFO,() -> String.valueOf(ts));
-        System.out.println( ts.size());
+        l.log(Level.INFO,() -> String.valueOf(ts.size()));
 
 
 
